@@ -12,6 +12,7 @@ int main()
     printf("%d\n", myNum);
     printf("%f\n", myFloatNum);
     printf("%c\n", myLetter);
-    printf("The answer is always %d", myNum);
+    printf("The answer is always %d\n", myNum);
+    printf("The number %d and the letter %c are both very important", myNum, myLetter);
     return 0;
 }
